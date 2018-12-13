@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout="@layout/preference_item"
+	android:title="@string/app_name">
+
+	<PreferenceCategory
+		android:layout="@layout/preference_category_widget"
+		android:title="基本设置">
+		<SwitchPreferenceCompat
+			android:key="@string/save_net_mode"
+			android:layout="@layout/preference_item"
+			android:title="省流量模式"
+			android:summary="仅在Wi-Fi环境下自动加载图片"/>
+		<Preference
+			android:layout="@layout/preference_item"
+			android:title="清空缓存"
+			android:summary="删除已缓存的文章和图片"/>
+		<SwitchPreferenceCompat
+			android:key="@string/night_mode"
+			android:layout="@layout/preference_item"
+			android:title="夜间模式"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:layout="@layout/preference_category_widget"
+		android:title="其他说明">
+		<Preference
+			android:layout="@layout/preference_item"
+			android:title="当前版本号"
+			android:summary="v 0.1"/>
+		<Preference
+			android:layout="@layout/preference_item"
+			android:title="Rimson"
+			android:summary="rimson@qq.com"/>
+	</PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>
