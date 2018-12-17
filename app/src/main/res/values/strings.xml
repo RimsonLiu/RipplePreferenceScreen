@@ -3,6 +3,7 @@
 	<string name="save_net_mode">save_net_mode</string>
 	<string name="night_mode">night_mode</string>
 	<string name="title_activity_settings">Settings</string>
+	<drawable name="bg_white">#ffffff</drawable>
 
 	<!-- Strings related to Settings -->
 
